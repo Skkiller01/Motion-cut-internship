@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+}
+
+header{
+    padding:1em;
+    text-align: center;
+    background-image: url(https://github.com/Skkiller01/Motion-cut-internship/blob/main/assets/backgound-image-header.jpg?raw=true);
+}
+
+.font_import{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.background_image{
+    
+    background-image: url(https://github.com/Skkiller01/Motion-cut-internship/blob/main/assets/background_upload_1.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment:scroll;
+    
+}
+
+.birthday-image{
+    background-image: url(https://github.com/Skkiller01/Motion-cut-internship/blob/main/assets/Birthday_image.png?raw=true);
+    height:900px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+    text-shadow: 3px 5px 3px black;
+    border:3px inset cyan;
+    padding:0.3em;
+    display:inline-block;
+    color: white;
+}
+
+.description{
+    padding:20px;
+    margin:10px 80px 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 3px 2px black;
+    color: orange;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.date{
+    margin:10px;
+    padding:10px;
+    font-size:1.3rem;
+    font-weight: 700;
+    text-shadow: 2px 3px 2px black;
+    color: cyan;
+    text-align: center;
+}
+
+.venue{
+    margin:20px 80px 20px;
+    padding:10px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 3px 2px black;
+    color: cyan;
+    text-align: center;
+}
+
+.button_pos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:20px;
+}
+
+.joinUs_button{
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    background-color: green;
+    padding:15px;
+    cursor:pointer;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.joinUs_button:hover{
+    background-color: rgb(43, 198, 43);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: last baseline;
+    background-color: aliceblue;
+    padding:10px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 1px 2px 1px black;
+    color: salmon;
+}
