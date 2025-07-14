@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('https://github.com/Skkiller01/Motion-cut-internship/blob/main/assets/backgound-image-header.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+.website-title {
+    font-size: 2.5rem;
+}
+
+.recipe-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.recipe-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #eee;
+}
+
+.recipe-card h2 {
+    margin: 1rem 0 0.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.recipe-card p {
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.recipe-card h3 {
+    margin: 1rem 1rem 0.5rem;
+    color: #444;
+}
+
+.recipe-card ul {
+    list-style: disc;
+    padding-left: 2rem;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .recipe-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .recipe-card {
+        width: 90%;
+    }
+}
